@@ -1,4 +1,4 @@
-# Students Management SaaS Dashboard
+# Students Management Dashboard
 
 A production-quality full-stack Students Management system built as a monorepo. The app provides real-time CRUD, advanced filtering, export options, and an enterprise-grade UI with optional dark mode.
 
@@ -10,8 +10,7 @@ A production-quality full-stack Students Management system built as a monorepo. 
 - Axios (API)
 - Socket.io client (real-time updates)
 - xlsx (Excel/CSV export)
-- jsPDF + autoTable (PDF export)
-- Chart.js & Recharts (analytics)
+- Chart.js & Recharts (analytics Reports)
 
 **Backend**
 - Node.js + Express
@@ -41,7 +40,7 @@ students-crud-app
 Required fields:
 - `name` (String, min 2 chars)
 - `email` (String, unique)
-- `age` (Number, 1–120)
+- `age` (Number, 1â€“120)
 - `status` (String: Active | Pending | Blocked)
 - `course` (String)
 - `enrollmentDate` (Date)
